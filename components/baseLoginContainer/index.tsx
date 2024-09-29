@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   headerTitle: {
-
     fontSize: 28,
     color: 'white',
     textAlign: "left",

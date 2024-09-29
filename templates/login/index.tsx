@@ -10,13 +10,17 @@ export const Login = () => {
     const handleSignUp = () => {
         router.navigate("/signup");
       };
+    const handleSignIn = () => {
+        router.push("/home");
+    }    
+
     return (
         <BaseLoginContainer title="Entrar" heading="Bem-vindo ao Smart Manager!">
             <KeyboardAvoidingView style={styles.container} >
                 <Input label="Email*" placeholder="Digite aqui seu email..." />
                 <PasswordInput label="Senha*" placeholder="Digite aqui sua senha..." />
                 <LinkButton text="Esqueci minha senha" style={{ display: "flex", alignItems: "flex-end" }} />
-                <Button text="Entrar" variant="default" />
+                <Button onPress={handleSignIn} text="Entrar" variant="default"  />
                 <View
                     style={{
                         flexDirection: "row",

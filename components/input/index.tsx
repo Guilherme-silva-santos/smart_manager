@@ -43,14 +43,14 @@ const styles = StyleSheet.create({
     },
     input: {
       width: "90%",
-      color: "black",
+      color: "white",
       fontSize: 14,
     },
     inputContainer: {
       gap: 8,
     },
     inputLabel: {
-      color: 'black',
+      color: 'white',
       fontSize: 14,
     },
   });

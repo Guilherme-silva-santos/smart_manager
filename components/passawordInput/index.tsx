@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   },
   input: {
     width: "90%",
-    color: "black",
+    color: "white",
     fontSize: 14,
   },
   iconButton: {
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   inputLabel: {
-    color: 'black',
+    color: 'white',
     fontSize: 14,
   },
 });
