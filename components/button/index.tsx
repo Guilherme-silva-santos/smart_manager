@@ -25,7 +25,7 @@ export const Button: FC<ButtonProps> = ({
 
   switch (variant) {
     case "default":
-      buttonColor = 'black';
+      buttonColor = 'white';
       buttonTextColor = 'white';
       break;
     case "delete":
